@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Request IT Talent | Sigaram LLC</title>
+  <meta name="description" content="Tell Sigaram LLC about the role you need to fill and get a curated shortlist of vetted IT talent within 48 hours.">
+  <link rel="icon" type="image/png" href="images/sigaram-favicon.png">
+  <link rel="apple-touch-icon" href="images/sigaram-apple-touch.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html" aria-label="Sigaram LLC — home">
+      <img src="images/sigaram-logo.png" alt="Sigaram LLC" class="logo-img">
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="contact.html">Hire Talent</a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1 class="display">Tell us about the <span class="grad-text">role you need to fill.</span></h1>
+      <p>Share a few details and we'll be in touch within one business day — with a shortlist to follow within 48 hours for most roles.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:clamp(2rem,4vw,3rem)">
+    <div class="container contact-grid">
+      <div class="form-card reveal">
+        <form id="contact-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name">Full name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Jane Smith">
+            </div>
+            <div class="field">
+              <label for="f-email">Work email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="jane@company.com">
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-company">Company</label>
+              <input id="f-company" name="company" type="text" autocomplete="organization" placeholder="Company Inc.">
+            </div>
+            <div class="field">
+              <label for="f-type">I am…</label>
+              <select id="f-type" name="inquiry_type">
+                <option>Hiring — employer</option>
+                <option>Looking for work — technologist</option>
+                <option>Something else</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-msg">About the role</label>
+            <textarea id="f-msg" name="message" required placeholder="Role title, must-have skills, location/remote, timeline…"></textarea>
+          </div>
+          <button class="btn btn-primary btn-lg" type="submit" style="width:100%">Send message</button>
+          <div id="form-status" class="form-status" role="status"></div>
+          <p class="form-note">Prefer email? Write to us directly at <a href="mailto:info@sigaramllc.com">info@sigaramllc.com</a>.</p>
+        </form>
+      </div>
+
+      <div class="reveal reveal-d1" style="display:grid;gap:1.6rem">
+        <div class="info-card">
+          <h3 class="h3">Reach us directly</h3>
+          <div class="info-row">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a5b4fc" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></span>
+            <div><b>Email</b><a href="mailto:info@sigaramllc.com">info@sigaramllc.com</a></div>
+          </div>
+          <div class="info-row">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a5b4fc" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><b>Location</b><span>Maryland, USA — serving clients nationwide</span></div>
+          </div>
+          <div class="info-row">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a5b4fc" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+            <div><b>Hours</b><span>Mon–Fri, 9am–6pm Eastern</span></div>
+          </div>
+          <div class="info-row">
+            <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a5b4fc" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+            <div><b>Response time</b><span>Within one business day</span></div>
+          </div>
+        </div>
+        <div class="img-frame">
+          <img src="images/modern-workspace.jpg" alt="Modern workspace with laptop showing code" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What happens next -->
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">What happens next</span>
+        <h2 class="h2">No black holes, no ghosting</h2>
+      </div>
+      <div class="steps" style="grid-template-columns:repeat(3,1fr)">
+        <div class="step reveal"><div class="n">1</div><h3>We reply within a day</h3><p>A real person responds — usually with a few sharp questions about the role.</p></div>
+        <div class="step reveal reveal-d1"><div class="n">2</div><h3>30-minute role call</h3><p>We align on must-haves, team fit, compensation, and timeline.</p></div>
+        <div class="step reveal reveal-d2"><div class="n">3</div><h3>Shortlist in 48 hours</h3><p>Curated, pre-screened candidates land in your inbox — ready to interview.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html"><img src="images/sigaram-mark.png" alt="Sigaram LLC" class="footer-logo"></a>
+        <p>A women-owned IT staffing startup based in Maryland, connecting US companies with vetted cloud, data, and engineering talent.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html#direct-hire">Direct-hire placements</a></li>
+          <li><a href="services.html#contract">Contract staffing</a></li>
+          <li><a href="services.html#contract-to-hire">Contract-to-hire</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:info@sigaramllc.com">info@sigaramllc.com</a></li>
+          <li><a href="contact.html">Request talent</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Sigaram LLC. All rights reserved.</span>
+      <span>Women-owned business · Maryland, USA</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
